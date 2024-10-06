@@ -1,0 +1,15 @@
+[package]
+name = "butterworth_filter_cli"
+version = "0.1.0"
+edition = "2018"
+
+authors = ["OpenAI"]
+description = "A command-line tool for applying Butterworth filters to images."
+license = "MIT"
+
+[dependencies]
+clap = "4.5.19"
+image = "0.25.2"
+rustfft = "6.2.0"
+num-complex = "0.4"
+num-traits = "0.2"
